@@ -9,6 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.Extensions.Configuration;
 using System.Text;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DatingApp_API.Controllers
 {
