@@ -23,7 +23,7 @@ export class NavComponent implements OnInit {
     });
   }
 
-  loggedIn(){
+  loggedIn() {
     const token = localStorage.getItem('token');
     return !!token;
   }
@@ -31,6 +31,5 @@ export class NavComponent implements OnInit {
   logout() {
     localStorage.removeItem('token');
     console.log('logged out');
-    
   }
 }
